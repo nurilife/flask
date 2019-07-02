@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title> GPIO INPUT/OUTPUT </title>
+<link type = "text/css" rel = "stylesheet" href="/static/style.css"/>
+</head>
+<body>
+<p> </p>
+<input type = "button" value = "Forward" style="WIDTH:200pt; HEIGHT:80pt; fone-size:50pt" onclick = "location.href='/led/forward'";>
+<br/><br/>
+<input type = "button" value = "Left" style="WIDTH:150pt; HEIGHT:80pt; fone-size:50pt" onclick="location.href='/led/left'";>
+&nbsp; &nbsp; 
+<input type = "button" value = "Stop" style="WIDTH:200pt; HEIGHT:80pt; fone-size:50pt" onclick = "location.href='/led/off'";>
+&nbsp; &nbsp; 
+<input type = "button" value = "Right" style="WIDTH:150pt; HEIGHT:80pt; fone-size:50pt" onclick = "location.href='/led/right'";>
+<br/><br/>
+<input type = "button" value = "Backward" style="WIDTH:200pt; HEIGHT:80pt; fone-size:50pt" onclick="location.href='/led/backward'";>
+<br/>
+<p>Car is now <span id="state"> {{state}}</span> state.</p>
+</body>
+</html>
