@@ -36,7 +36,7 @@ def led_on_off(onoff):
 def index():
   return render_template('index.html', state=state)
  
-@app.route('/led/<onoff>')?? 
+@app.route('/led/<onoff>')
 def led(onoff):
   global state
   state = onoff
